@@ -7,6 +7,21 @@ const Projects = () => {
       <h1 className="text-2xl md:text-4xl text-white font-bold">Projects</h1>
       <div className="py-12 px-8 flex flex-wrap gap-5">
         <ProjectCard
+          title="Blabber Chat Application"
+          main="Blabber is a real-time web application designed for seamless and spontaneous communication. Built with a focus on speed and simplicity, it allows users to share thoughts instantly, engage in lively conversations, and stay connected without distractions."
+          technologies={[
+            "React",
+            "Express.js",
+            "Socket.io",
+            "MongoDB",
+            "Tailwind CSS",
+            "JWT",
+            "Cloudinary"
+          ]}
+          githubLink="https://github.com/Aadi1220/CHAT-APP"
+          liveLink="https://chat-app-vz77.onrender.com/"
+        />
+        <ProjectCard
           title="Homeaway (Airbnb Clone)"
           main="This is an Airbnb clone created with a focus on functionality and responsive design."
           technologies={[
@@ -19,7 +34,7 @@ const Projects = () => {
             "Bootstrap",
           ]}
           githubLink="https://github.com/Aadi1220/HomeAway"
-          liveLink="https://homeaway-2abd.onrender.com/listings/"  // Replace with your live website URL
+          liveLink="https://homeaway-2abd.onrender.com/listings/"
         />
         <ProjectCard
           title="Music Player"
