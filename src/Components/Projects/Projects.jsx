@@ -37,6 +37,22 @@ const Projects = () => {
           liveLink="https://homeaway-2abd.onrender.com/listings/"
         />
         <ProjectCard
+          title="Blabber (Chat Application)"
+          main="A real-time chat application built with modern web technologies, enabling seamless and instant user communication."
+          technologies={[
+            "React",  
+            "JavaScript",
+            "Node.js",
+            "Express.js",
+            "MongoDB",
+            "Socket.io",
+            "DaisyUI",
+            "Tailwind",
+          ]}
+          githubLink="https://github.com/Aadi1220/CHAT-APP"
+          liveLink="https://chat-app-vz77.onrender.com/"  // Replace with your live website URL
+        />
+        <ProjectCard
           title="Music Player"
           main="A web-based music player with intuitive controls and a modern UI."
           technologies={["HTML", "CSS", "JavaScript"]}
